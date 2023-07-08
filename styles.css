@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=League+Spartan:wght@700&family=Poppins:wght@600;700;900&family=Work+Sans:wght@600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: #b9d6f2;
+    color: #000000;
+    font-family: 'Work Sans';
+}
+
+#navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000000;
+    position: fixed;
+}
+
+#main-logo {
+    font-size: 2rem;
+}
+
+#main-navbar a{
+    margin-right: 80px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+#main-navbar a:active {
+    color: #0353a4;
+    text-decoration: underline;
+}
+
+#main-navbar a:hover {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.content{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.home-content {
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.home-message h3 {
+    font-size: 3rem;
+}
+
+.home-message h1 {
+    font-size: 4rem;
+    font-family: 'Climate Crisis';
+    width: 100%;
+}
+
+.next-button {
+    position: relative;
+    font-size: 3rem;
+}
+
+.next-button p{
+    font-size: 1rem;
+}
+
+.next-button i:hover {
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
+}
+
+.about {
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Climate Crisis';
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px
+}
+
+.about-img img{
+    height: 85%;
+    width: 50%;
+    background-size: cover;
+}
+
+.about-para {
+    text-align: left;
+    font-family: 'Work Sans';
+    margin-right: 150px;
+}
+
+
+
