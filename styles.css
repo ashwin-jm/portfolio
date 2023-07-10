@@ -2,7 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    
+    scroll-behavior: smooth;
 }
 
 body {
@@ -87,10 +87,11 @@ body {
 }
 
 .about {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     text-align: center;
     font-family: 'Climate Crisis';
+    padding-top: 120px;
 }
 
 .about-content {
@@ -113,13 +114,14 @@ body {
 }
 
 .experience {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     text-align: center;
     line-height: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 120px;
 }
 
 .experience-heading {
@@ -129,8 +131,8 @@ body {
 
 .experience-box{
     background-color: #FFFFFF;
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
     font-family: 'Work Sans';
     border-radius: 40px;
 }
@@ -141,5 +143,15 @@ body {
     border: 2px solid;
 }
 
+.contact {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.contact-heading {
+    font-family: 'Climate Crisis'
+}
 
 
