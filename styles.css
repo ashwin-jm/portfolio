@@ -12,7 +12,7 @@ body {
 }
 
 #navbar {
-    height: 100px;
+    height: 15%;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -31,7 +31,7 @@ body {
     margin-right: 80px;
     text-decoration: none;
     color: #000000;
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 #main-navbar a:active {
@@ -91,14 +91,14 @@ body {
     width: 100%;
     text-align: center;
     font-family: 'Climate Crisis';
-    padding-top: 120px;
+    padding-top: 10%;
 }
 
 .about-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 100px
+    margin: 7%;
 }
 
 .about-img img{
@@ -110,7 +110,8 @@ body {
 .about-para {
     text-align: left;
     font-family: 'Work Sans';
-    margin-right: 150px;
+    margin-right: 10%;
+    line-height: 2;
 }
 
 .experience {
@@ -121,17 +122,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 120px;
+    padding-top: 10%;
 }
 
 .experience-heading {
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     font-family: 'Climate Crisis';
 }
 
 .experience-box{
     background-color: #FFFFFF;
-    height: 70%;
+    height: 60%;
     width: 70%;
     font-family: 'Work Sans';
     border-radius: 40px;
@@ -139,7 +140,7 @@ body {
 
 .experience-box hr {
     width: 80%;
-    margin: 0px auto 50px auto;
+    margin: 0px auto 4% auto;
     border: 2px solid;
 }
 
@@ -147,7 +148,7 @@ body {
     height: 80vh;
     width: 100%;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,7 +164,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 2%;
     font-family: 'Work Sans';
 }
 
@@ -178,7 +179,7 @@ body {
 .watsapp-chat i {
     font-size: 4rem;
     cursor: pointer;
-    margin-top: 40px;
+    margin-top: 15%;
 }
 
 .resume {
@@ -193,14 +194,13 @@ body {
     background-color: #FFFFF0;
     border-radius: 10px;
     font-size: 2rem;
-    margin-top: 50px;
-    padding: 5px;
+    margin-top: 15%;
+    padding: 2%;
     cursor: pointer;
 }
 
 .resume i{
     font-size: 2rem;
-    margin-right: 10px;
 }
 
 .social-media {
@@ -213,12 +213,12 @@ body {
 
 .social-media i {
     font-size: 2rem;
-    margin-right: 10px;
+    margin-right: 3%;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 4%;
 }
 
 .contact-content h2{
-    padding-top: 20px;
+    padding-top: 7%;
 }
 
