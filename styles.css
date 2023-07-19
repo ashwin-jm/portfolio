@@ -61,22 +61,22 @@ body {
 }
 
 .home-message h3 {
-    font-size: 3rem;
+    font-size: 200%;
 }
 
 .home-message h1 {
-    font-size: 4rem;
+    font-size: 400%;
     font-family: 'Climate Crisis';
     width: 100%;
 }
 
 .next-button {
     position: relative;
-    font-size: 3rem;
+    font-size: 200%;
 }
 
 .next-button p{
-    font-size: 1rem;
+    font-size: 70%;
     font-weight: bold;
 }
 
@@ -87,18 +87,18 @@ body {
 }
 
 .about {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     text-align: center;
     font-family: 'Climate Crisis';
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .about-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 7%;
+    margin: 3%;
 }
 
 .about-img img{
@@ -115,7 +115,7 @@ body {
 }
 
 .experience {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     text-align: center;
     line-height: 2;
@@ -132,10 +132,16 @@ body {
 
 .experience-box{
     background-color: #FFFFFF;
-    height: 60%;
-    width: 70%;
+    height: 80%;
+    width: 80%;
     font-family: 'Work Sans';
-    border-radius: 40px;
+    border-radius: 35px;
+    overflow-y: auto;
+    padding: 2px;
+}
+
+.experience-box p {
+    padding: 2%;
 }
 
 .experience-box hr {
@@ -148,7 +154,7 @@ body {
     height: 80vh;
     width: 100%;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,21 +176,21 @@ body {
 
 .watsapp-chat {
     height: 50%;
-    width: 20%;
+    width: 30%;
     background-color: #FFFFF0;
     line-height: 2;
     border-radius: 30px;
 }
 
 .watsapp-chat i {
-    font-size: 4rem;
+    font-size: 3rem;
     cursor: pointer;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .resume {
     height: 50%;
-    width: 20%;
+    width: 30%;
     background-color: #FFFFF0;
     line-height: 2;
     border-radius: 30px;
@@ -194,18 +200,18 @@ body {
     background-color: #FFFFF0;
     border-radius: 10px;
     font-size: 2rem;
-    margin-top: 15%;
+    margin-top: 10%;
     padding: 2%;
     cursor: pointer;
 }
 
 .resume i{
-    font-size: 2rem;
+    font-size: 100%;
 }
 
 .social-media {
     height: 50%;
-    width: 20%;
+    width: 30%;
     background-color: #FFFFF0;
     line-height: 2;
     border-radius: 30px;
@@ -219,6 +225,88 @@ body {
 }
 
 .contact-content h2{
-    padding-top: 7%;
+    padding: 5%;
 }
 
+@media (max-width: 768px) and (min-width: 550px) {
+    #navbar {
+        display: block;
+        text-align: center;
+        height: 20%;
+    }
+
+    #main-navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #main-navbar a {
+        padding-top: 1%;
+        margin-right: 0px;
+    }
+
+    .content {
+        padding-top: 10%;
+    }
+
+    .about-heading {
+        padding-top: 10%;
+    }
+    
+    .about-para {
+        margin-right: 4%;
+        font-size: 0.8rem;
+    }
+
+    .experience-heading {
+        padding-top: 15%;
+    }
+
+    .contact-content{
+        font-size: 70%;
+    }
+
+}
+
+@media (max-width: 550px) and (min-width: 320px) {
+    #navbar {
+        display: block;
+        text-align: center;
+        height: 20%;
+    }
+
+    #main-navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #main-navbar a {
+        padding-top: 1%;
+        margin-right: 0px;
+        font-size: 80%;
+    }
+
+    .content {
+        padding-top: 25%;
+        font-size: 80%;
+    }
+
+    .about-heading {
+        padding-top: 30%;
+    }
+
+    .about-content {
+        display: block;
+    }
+    
+    .about-para {
+        margin-right: 4%;
+        font-size: 0.6rem;
+    }
+
+    .experience-heading {
+        padding-top: 20%;
+    }
+}
