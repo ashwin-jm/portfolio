@@ -122,7 +122,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .experience-heading {
@@ -132,7 +132,7 @@ body {
 
 .experience-box{
     background-color: #FFFFFF;
-    height: 80%;
+    height: 70%;
     width: 80%;
     font-family: 'Work Sans';
     border-radius: 35px;
@@ -183,7 +183,7 @@ body {
 }
 
 .watsapp-chat i {
-    font-size: 3rem;
+    font-size: 4rem;
     cursor: pointer;
     margin-top: 5%;
 }
@@ -200,7 +200,7 @@ body {
     background-color: #FFFFF0;
     border-radius: 10px;
     font-size: 2rem;
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 2%;
     cursor: pointer;
 }
@@ -218,14 +218,28 @@ body {
 }
 
 .social-media i {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-right: 3%;
     cursor: pointer;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 .contact-content h2{
     padding: 5%;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .contact-content {
+        font-size: 80%
+    }
+
+    .contact-content i {
+        font-size: 2rem;
+    }
+
+    .resume button {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 768px) and (min-width: 550px) {
@@ -260,16 +274,28 @@ body {
     }
 
     .experience-heading {
-        padding-top: 15%;
+        padding-top: 10%;
     }
 
     .contact-content{
         font-size: 70%;
     }
 
+    .contact-heading {
+        padding-top: 5%;
+    }
+
+    .contact-content i {
+        font-size: 2rem;
+    }
+
+    .resume button {
+        font-size: 1rem;
+    }
+
 }
 
-@media (max-width: 550px) and (min-width: 320px) {
+@media (max-width: 550px) and (min-width: 425px) {
     #navbar {
         display: block;
         text-align: center;
@@ -289,12 +315,12 @@ body {
     }
 
     .content {
-        padding-top: 25%;
+        padding-top: 20%;
         font-size: 80%;
     }
 
     .about-heading {
-        padding-top: 30%;
+        padding-top: 17%;
     }
 
     .about-content {
@@ -308,5 +334,164 @@ body {
 
     .experience-heading {
         padding-top: 20%;
+    }
+
+    .contact-heading {
+        padding-top: 5%;
+    }
+
+    .contact-content {
+        font-size: 60%;
+    }
+
+    .contact-content i {
+        font-size: 250%;
+    }
+
+    .contact-content button {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+    #navbar {
+        display: block;
+        text-align: center;
+        height: 20%;
+    }
+
+    #main-navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #main-navbar a {
+        padding-top: 1%;
+        margin-right: 0px;
+        font-size: 80%;
+    }
+
+    .content {
+        padding-top: 20%;
+        font-size: 80%;
+    }
+
+    .about-heading {
+        padding-top: 25%;
+    }
+
+    .about-content {
+        display: block;
+    }
+    
+    .about-para {
+        margin-right: 4%;
+        font-size: 0.6rem;
+    }
+
+    .experience-heading {
+        padding-top: 20%;
+    }
+
+    .experience-box {
+        font-size: 70%;
+    }
+
+    .contact-heading {
+        padding-top: 15%;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        font-size: 50%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .watsapp-chat, .resume, .social-media {
+        width: 100%;
+        height: 30%;
+    }
+
+    .contact-content i {
+        font-size: 2rem;
+    }
+
+    .contact-content button {
+        font-size: 0.8rem;
+        margin-top: 1%;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
+    #navbar {
+        display: block;
+        text-align: center;
+        height: 20%;
+    }
+
+    #main-navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #main-navbar a {
+        padding-top: 1%;
+        margin-right: 0px;
+        font-size: 80%;
+    }
+
+    .content {
+        padding-top: 20%;
+        font-size: 80%;
+        text-align: center;
+    }
+
+    .about-heading {
+        padding-top: 40%;
+    }
+
+    .about-content {
+        display: block;
+    }
+    
+    .about-para {
+        margin-right: 4%;
+        font-size: 0.7rem;
+    }
+
+    .experience-heading {
+        padding-top: 35%;
+    }
+
+    .experience-box {
+        font-size: 70%;
+    }
+
+    .contact-heading {
+        padding-top: 15%;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        font-size: 50%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .watsapp-chat, .resume, .social-media {
+        width: 100%;
+        height: 30%;
+    }
+
+    .contact-content i {
+        font-size: 2rem;
+    }
+
+    .contact-content button {
+        font-size: 0.8rem;
+        margin-top: 1%;
     }
 }
